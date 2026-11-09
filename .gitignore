@@ -39,3 +39,19 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# static export build
+/.next-export/
+
+# local embedded database
+/.data/
+!.env.example
+
+# production admin credentials (local note)
+/credenziali-admin.txt
+
+# reference images dropped in the project root (chat attachments), not part of the site
+/????????-????-????-????-????????????.png
+
+# local tooling
+.claude/settings.local.json
